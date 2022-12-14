@@ -1,0 +1,37 @@
+# Site metadata
+title: The HTTPS-Only Standard
+description: "Resources, best practices, and case studies for deploying HTTPS in the federal government."
+url: https://https.cio.gov
+
+# DAP, GA, and GitHub
+dap_agency: GSA
+google_analytics_ua: UA-48605964-20
+repo: https://github.com/GSA/https
+
+# Standard
+uswds_path: assets/vendor/uswds
+
+# TODO: get rid of this
+highlighter: rouge
+markdown: redcarpet
+redcarpet:
+  extensions:
+  - smart
+  - with_toc_data
+
+exclude:
+- compliance
+- resources
+- ".ruby-version"
+- ".jekyll-metadata"
+- ".gitignore"
+- node_modules
+- todo.txt
+- Staticfile
+- Gemfile
+- Gemfile.lock
+- vendor
+- README.md
+- CONTRIBUTING.md
+- LICENSE.md
+- .nvmrc
